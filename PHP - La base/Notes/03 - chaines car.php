@@ -8,11 +8,11 @@
 		<meta charset="utf-8" />
 	</head>
 	<body>
-		<h1>Mot : </h1>
-		<div>Longueur : </div>
-		<div>Position orem : </div>
-		<div>Remplacer : </div>
-		<div>Substring : </div>
+		<h1>Mot : <?= $mot ?></h1>
+		<div>Longueur : <?= strlen($mot) ?></div>
+		<div>Position orem : <?= strpos($mot, "orem") ?></div>
+		<div>Remplacer : <?= str_replace("orem", "ogique", $mot) ?></div>
+		<div>Substring :<?= substr($mot, 0, 2) ?> </div>
 	</body>
 </html>
 

@@ -1,3 +1,5 @@
+<?php $info = $_GET["searchBox"] ?? ""; ?>
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -11,8 +13,16 @@
 				
 			</div>
 			<div id="analyze-result">
-				Entrez une chaîne de caractères et appuyez sur analyser
+				<?php
+					if(!empty($info)){echo strlen($info);}
+					else{
+					?>
+					Entrez une chaîne de caractères et appuyez sur analyser 
+					<?php
+					}
+				?>
 			</div>
+			<form action="" method="get">
 			<div id="search-line">
 				<div>
 					<input type="text" name="searchBox" placeholder="Texte à analyser" />
@@ -21,6 +31,7 @@
 					<button>Analyser</button>
 				</div>
 			</div>
+			</form>
 		</div>
 	</body>
 </html>

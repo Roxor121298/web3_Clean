@@ -1,0 +1,9 @@
+Boot le serveur
+
+php -S localhost:8000
+
+
+
+phpt = php tag
+phpe = faire un echo rapide
+phpr = faire une balsie reverse
