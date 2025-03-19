@@ -1,0 +1,18 @@
+Framekiller vs clickJacking (ajouter un iframe pour faire faire de click invisible a un user)
+
+
+parrallésisation : processus qui utilise plusieurs processeur (multi-thread)
+
+dictionnary attack (test tout les mots de passe plus populaires a la fois)
+brute force attack (test tout les password aleatoirement)
+denial of service (boucle crash ressources du serveur)
+DDOS (distributed denial of service)
+
+SQL injection 
+
+        pour ce proteger des injection phph par image il faut resize l'iamge (car cela viens delete ce qui n'est pas du php)
+
+
+cross site scripting (XSS) : Js script injection (or html bold text injection) 
+
+        ex : <script>alert(1)</script>
